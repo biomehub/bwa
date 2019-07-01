@@ -11,7 +11,7 @@ RUN apt-get update -y; \
 # Download & install
 
  RUN wget https://sourceforge.net/projects/bio-bwa/files/bwa-0.7.17.tar.bz2 \
-  && tar -C /opt -xf bwa-0.7.17.tar.bz2 \
+  && tar -xf bwa-0.7.17.tar.bz2 \
   && mkdir /opt/bwa-0.7.17 \
   && cd bwa-0.7.17 \
   && cp bwa /opt/bwa-0.7.17 \
