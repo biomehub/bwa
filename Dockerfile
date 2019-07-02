@@ -4,7 +4,7 @@ MAINTAINER lfelipedeoliveira, felipe@lfelipedeoliveira.com
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -y; \
-    apt-get install wget zlib1g-dev make -y; \
+    apt-get install wget zlib1g-dev lbzip2 make -y; \
     apt-get upgrade; \
     apt-get clean
 
